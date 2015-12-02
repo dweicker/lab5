@@ -25,6 +25,20 @@ T(2,1) = 449.9999999999993747 for h = 0.1
 
 \FloatBarrier
 
-We see that the exact value at $(2,1)$ is close to $450$. It is clear by symmetry that the solution does not depend en the y-coordinate. Therefore the equation reduces to $$\dfrac{\dr^{2} T}{\dr x^{2}}=0.$$
-The solution is a plane $$T(x,y)=T(x)= ax+b.$$ 
-The boundary conditions $T(x=0)=300$ and $T(x=4)=600$ allow to find that $T(x)= 300+ 75x$. The solution respects boundary conditions~\eqref{eq:cond1} and~\eqref{eq:cond2}. It is now clear that $T(2,1)=450$. The (notably small) errors in the numerical solution are \textit{only} due to floating point computation errors. 
+Let us assume that the solution $T(x,y)$ is independent of $y$ and is given by : 
+$$T(x,y) = 300+75x$$
+
+The Laplacian of this function $T$ is indeed zero everywhere inside the domain.
+
+The boundary conditions $T(x=0)=300$ and $T(x=4)=600$ are satisfied. The solution respects also boundary conditions ~\eqref{eq:cond2}. By unicity (the problem is well posed), we can conclude that this is the solution.
+
+ It is now clear that $T(2,1)=450$. The (notably small) errors in the numerical solution are \textit{only} due to floating point computation errors. Indeed, because the solution is linear, the finite differences give no longer an approximation of the Laplacian but the exact value. 
+ 
+\begin{align*} 
+ \Delta T &= \frac{T(x,y+h)+T(x,y-h)+T(x+h,y)+T(x-h,y)-4T(x,y)}{h^2}\\
+ &=\frac{(300+75x)+(300+75x)+(300+75(x+h))+(300+75(x-h))-4*(300+75x)}{h^2}\\
+ &=\frac{1200+300x+75h-1200-300x-75h}{h^2}\\
+ &=0
+ \end{align*}
+
+This is also why the error is not reduced when decreasing $h$.
