@@ -2,7 +2,7 @@ In this section, we are going to solve the problem presented above with Comsol M
 
 This is a Laplace equation and Comsol have already a nice setup for us. All we have to do is impose boundary conditions and generate the mesh. By default, Comsol sets zero flux boundary conditions so we just have to specify the Dirichlet conditions on the left and right sides. Once we have done this, we first use a mesh of type "normal". Figure \ref{mesh} shows what the "normal" mesh looks like for our geometry.
 
-This mesh contains 316 triangles and 679 nodes.\red{mmmmmm....}
+This mesh contains 316 triangles and 679 degrees of freedom. There are also 182 nodes.
 
 \begin{figure}
 \begin{center}
@@ -17,7 +17,7 @@ $$T(2,1) = 450.0000000001594$$
 
 That is very close to the analytic value and the error is only due to floating point computation.
 
-We are now going to refine the mesh. We switch from "normal" to "fine". There are now 476 triangles and 1022 nodes.\red{je ne te crois pas...}
+We are now going to refine the mesh. We switch from "normal" to "fine". There are now 476 triangles and 1011 degrees of freedom, as well as 268 nodes.
 
 We have another $T-value$ and:
 $$T(2,1) = 450.000000000236$$
