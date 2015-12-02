@@ -12,8 +12,8 @@ function U = sol(M,N)
  b(1:N:end) = 300;
  b(N:N:end) = 600;
  for i = 0:M
-    A(N+1+i*N, N+1+i*N-1) = 0; % left side
-    A(N+i*N, N+i*N +1) = 0;% right side
+    A(N+1+i*N, N+1+i*N-1) = 0; % left side of domain
+    A(N+i*N, N+i*N +1) = 0;% right side of domain
  end
  %2) correct lower and upper equations with ghost points etc
  for i = 1:N 
@@ -24,6 +24,4 @@ function U = sol(M,N)
 U = A\b;
 U = reshape(U,N,M+2)';
 U = [300*ones(M+2,1) U 600*ones(M+2,1)];
-%imagesc(U)
-
 end
