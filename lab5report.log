@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.17)  2 DEC 2015 16:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.17)  2 DEC 2015 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1300,91 +1300,96 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 91.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) (./question1.tex
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 4.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 2.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 9.
+(Font)              <5> on input line 7.
 Package epstopdf Info: Source file: <./h02.eps>
-(epstopdf)                    date: 2015-12-02 15:18:47
-(epstopdf)                    size: 15220 bytes
+(epstopdf)                    date: 2015-12-02 18:40:05
+(epstopdf)                    size: 304729 bytes
 (epstopdf)             Output file: <./h02-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-02 15:46:49
-(epstopdf)                    size: 7057 bytes
+(epstopdf)                    date: 2015-12-02 18:40:49
+(epstopdf)                    size: 9375 bytes
 (epstopdf)             Command: <repstopdf --outfile=./h02-eps-converted-to.pdf
  ./h02.eps>
-(epstopdf)             \includegraphics on input line 16.
+(epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<./h02-eps-converted-to.pdf, id=22, 414.54875pt x 315.1775pt>
+<./h02-eps-converted-to.pdf, id=22, 421.575pt x 316.18124pt>
 File: ./h02-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./h02-eps-converted-to.pdf>
-Package pdftex.def Info: ./h02-eps-converted-to.pdf used on input line 16.
-(pdftex.def)             Requested size: 317.07614pt x 241.07632pt.
+Package pdftex.def Info: ./h02-eps-converted-to.pdf used on input line 14.
+(pdftex.def)             Requested size: 317.07614pt x 237.81078pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <./h01.eps>
-(epstopdf)                    date: 2015-12-02 15:18:28
-(epstopdf)                    size: 21433 bytes
+(epstopdf)                    date: 2015-12-02 18:39:38
+(epstopdf)                    size: 308780 bytes
 (epstopdf)             Output file: <./h01-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-02 15:46:53
-(epstopdf)                    size: 7615 bytes
+(epstopdf)                    date: 2015-12-02 18:40:51
+(epstopdf)                    size: 9381 bytes
 (epstopdf)             Command: <repstopdf --outfile=./h01-eps-converted-to.pdf
  ./h01.eps>
-(epstopdf)             \includegraphics on input line 23.
+(epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<./h01-eps-converted-to.pdf, id=23, 429.605pt x 339.2675pt>
+<./h01-eps-converted-to.pdf, id=23, 421.575pt x 316.18124pt>
 File: ./h01-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./h01-eps-converted-to.pdf>
-Package pdftex.def Info: ./h01-eps-converted-to.pdf used on input line 23.
-(pdftex.def)             Requested size: 317.07614pt x 250.4069pt.
+Package pdftex.def Info: ./h01-eps-converted-to.pdf used on input line 21.
+(pdftex.def)             Requested size: 317.07614pt x 237.81078pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./question2.tex
-[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
-has been already used, duplicate ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.1}) has been already used, du
+plicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.5 T
-     his mesh contains 316 triangles and 679 nodes.\red{mmmmmm....}pdfTeX warni
-ng (ext4): destination with the same identifier (name{figure.2}) has been alrea
-dy used, duplicate ignored
+l.118 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.5 T
-     his mesh contains 316 triangles and 679 nodes.\red{mmmmmm....} <./h02-eps-
-converted-to.pdf> <./h01-eps-converted-to.pdf>]
-<laplaceMesh.png, id=76, 474.27188pt x 277.035pt>
+l.118 
+       <./h02-eps-converted-to.pdf> <./h01-eps-converted-to.pdf>]
+(./question2.tex <laplaceMesh.png, id=79, 474.27188pt x 277.035pt>
 File: laplaceMesh.png Graphic file (type png)
- <use laplaceMesh.png>
+
+<use laplaceMesh.png>
 Package pdftex.def Info: laplaceMesh.png used on input line 9.
 (pdftex.def)             Requested size: 284.56532pt x 166.22227pt.
-
-<laplaceRect.png, id=79, 474.27188pt x 277.035pt>
+ <laplaceRect.png, id=82, 474.27188pt x 277.035pt>
 File: laplaceRect.png Graphic file (type png)
- <use laplaceRect.png>
+
+<use laplaceRect.png>
 Package pdftex.def Info: laplaceRect.png used on input line 32.
 (pdftex.def)             Requested size: 284.56532pt x 166.22227pt.
-)
-(./question3.tex <Lmesh.png, id=80, 474.27188pt x 277.035pt>
+) (./question3.tex
+<Lmesh.png, id=83, 474.27188pt x 277.035pt>
 File: Lmesh.png Graphic file (type png)
  <use Lmesh.png>
 Package pdftex.def Info: Lmesh.png used on input line 5.
 (pdftex.def)             Requested size: 284.56532pt x 166.22227pt.
+ [3pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
 
-<laplaceL.png, id=82, 474.27188pt x 277.035pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.9 \end{figure}
+                 <./laplaceMesh.png (PNG copy)>]
+<laplaceL.png, id=91, 474.27188pt x 277.035pt>
 File: laplaceL.png Graphic file (type png)
  <use laplaceL.png>
 Package pdftex.def Info: laplaceL.png used on input line 15.
@@ -1392,40 +1397,32 @@ Package pdftex.def Info: laplaceL.png used on input line 15.
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 128.
- (./laplace.m [3pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.3}) has been already used, duplicate ignored
+ (./laplace.m [4pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.8 hold 
-         on; <./laplaceMesh.png (PNG copy)>] [4pdfTeX warning (ext4): destinati
-on with the same identifier (name{figure.4}) has been already used, duplicate i
-gnored
+l.12  U02 
+          = sol(M,N);pdfTeX warning (ext4): destination with the same identifie
+r (name{figure.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.8 hold 
-         on;pdfTeX warning (ext4): destination with the same identifier (name{f
-igure.5}) has been already used, duplicate ignored
+l.12  U02 
+          = sol(M,N); <./laplaceRect.png (PNG copy)> <./Lmesh.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 15.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.8 hold 
-         on;pdfTeX warning (ext4): destination with the same identifier (name{f
-igure.6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.8 hold 
-         on; <./laplaceRect.png (PNG copy)> <./Lmesh.png (PNG copy)> <./laplace
-L.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 14.
- (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) (./sol.m)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+)) (./sol.m [5pdfTeX warning (ext4): destination with the same identifier (name
+{figure.6}) has been already used, duplicate ignored
 
-[5]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 U 
+       = A\b; <./laplaceL.png (PNG copy)>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+ [6]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
  (./lab5report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
@@ -1435,17 +1432,17 @@ Package rerunfilecheck Info: File `lab5report.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
  ) 
 Here is how much of TeX's memory you used:
- 20798 strings out of 493304
- 342132 string characters out of 6139870
- 680644 words of memory out of 5000000
- 23682 multiletter control sequences out of 15000+600000
+ 20807 strings out of 493304
+ 342254 string characters out of 6139870
+ 698644 words of memory out of 5000000
+ 23683 multiletter control sequences out of 15000+600000
  45791 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,11n,72p,507b,1807s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,11n,72p,680b,1805s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
-m-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
+vips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/shar
+e/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
+thit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></us
@@ -1453,10 +1450,10 @@ r/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt8.pfb>
-Output written on lab5report.pdf (5 pages, 356570 bytes).
+Output written on lab5report.pdf (6 pages, 364250 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 76 named destinations out of 1000 (max. 500000)
+ 233 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
+ 84 named destinations out of 1000 (max. 500000)
  67 words of extra memory for PDF output out of 10000 (max. 10000000)
 
