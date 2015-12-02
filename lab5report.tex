@@ -101,6 +101,16 @@ $\text{3}^{\text{th}}$ December 2015\\[0.2cm] %THIS IS THE DATE
 
 In this report we present the results of Lab 5. We had to solve an elliptic problem using first Matlab and then Comsol Multiphysics.
 
+$$\Delta T = 0, \hspace*{0.7cm} (x,y) \in \Omega$$
+\begin{equation}
+T(0,y) = 300,\hspace*{0.5cm} T(4,y) = 600,\hspace*{0.5cm} 0\leq y \leq 2
+\label{eq:cond1}
+\end{equation} 
+\begin{equation}
+\dfrac{\dr T  }{\dr y}(x,0) = 0,\hspace*{0.5cm} \dfrac{\dr T}{\dr y}(x,2) = 0,\hspace*{0.5cm} 0< x < 4
+\label{eq:cond2}
+\end{equation}
+
 
 \section{Matlab finite difference solution}
 
@@ -116,5 +126,6 @@ In this report we present the results of Lab 5. We had to solve an elliptic prob
 
 \section*{Codes}
 \lstinputlisting{laplace.m}
+\lstinputlisting{sol.m}
 
 \end{document}
